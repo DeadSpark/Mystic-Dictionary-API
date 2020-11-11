@@ -8,7 +8,7 @@
     <artifactId>mystic-dictionary-api</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-    <name>${project.groupId}:${project.artifactId}</name>
+    <name>Mystic Dictionary API</name>
     <description>A simple java library to fetch word meanings from OwlBot API</description>
     <url>https://github.com/DeadSpark/Mystic-Dictionary-API</url>
 
