@@ -5,8 +5,45 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.deadspark</groupId>
-    <artifactId>MysticDictionary</artifactId>
+    <artifactId>mystic-dictionary-api</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>A simple java library to fetch word meanings from OwlBot API</description>
+    <url>https://github.com/DeadSpark/Mystic-Dictionary-API</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Aditya Jadhav</name>
+            <email>deadspark143@gmail.com</email>
+            <organization>Mystical Development</organization>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/DeadSpark/Mystic-Dictionary-API.git</connection>
+        <developerConnection>scm:git:ssh://github.com/DeadSpark/Mystic-Dictionary-API.git</developerConnection>
+        <url>https://github.com/DeadSpark/Mystic-Dictionary-API/tree/main</url>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
 

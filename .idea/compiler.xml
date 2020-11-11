@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MysticDictionary" />
+        <module name="mystic-dictionary-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Mystic-Dictionary-API" target="7" />
+      <module name="MysticDictionary" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>
